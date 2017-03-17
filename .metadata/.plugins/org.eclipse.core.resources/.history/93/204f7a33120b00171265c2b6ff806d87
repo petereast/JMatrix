@@ -1,7 +1,5 @@
 package org.JMatrix;
 
-import java.io.IOException;
-
 public class CuMatrix extends matrix {
 	
 	// Accelerated matrix methods
@@ -11,26 +9,14 @@ public class CuMatrix extends matrix {
 	/**
 	 * @param args
 	 */
-	
-	public CuMatrix(){
-		
-	}
-	
-	public CuMatrix(double[][] data){
-		this.data = data;
-	}
-	
-	public void forktest(){
-		try {
-			Runtime.getRuntime().exec("./test");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Creating an accelerated matrix");
+
 	}
 	
 	public void iTest(){
-		
+		System.out.println(this.data);
 	}
 
 }

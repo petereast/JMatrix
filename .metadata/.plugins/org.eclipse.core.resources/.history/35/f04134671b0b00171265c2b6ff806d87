@@ -138,7 +138,6 @@ public class matrix {
 		return output;
 	}
 	
-	@Override
 	public static String toString(matrix m){
 		String output = "";
 		

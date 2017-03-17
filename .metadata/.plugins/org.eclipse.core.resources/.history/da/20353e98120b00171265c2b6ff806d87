@@ -15,6 +15,7 @@ public class matrix {
 	
 	public matrix(){
 		// TODO: Instantiate the data (provide overload method)
+		System.out.println("New matrix created!");
 	}
 	
 	public matrix(double[][] data){
@@ -128,23 +129,6 @@ public class matrix {
 		if(this.data != null){
 			output+="[";
 			for(double[]x:this.data){
-				output+="\n";
-				for(double item: x){
-					output+= item+", ";
-				}
-			}
-			output+="]";
-		}	
-		return output;
-	}
-	
-	@Override
-	public static String toString(matrix m){
-		String output = "";
-		
-		if(m.data != null){
-			output+="[";
-			for(double[]x:m.data){
 				output+="\n";
 				for(double item: x){
 					output+= item+", ";
