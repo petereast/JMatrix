@@ -26,7 +26,7 @@ public class JMatrix {
 		System.out.println(x.getDimensions()[0]);
 
 		
-		CuMatrix f = (CuMatrix) new matrix(new double[][] {{5, 6}, {7, 8}});
+		CuMatrix f = new matrix(new double[][] {{5, 6}, {7, 8}});
 		f.iTest();
 
 	}

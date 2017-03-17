@@ -4,7 +4,6 @@ import java.lang.*;
 import java.lang.reflect.Array;
 
 
-// Maybe change this to JMatrix
 public class matrix {
 
 	/**
@@ -98,17 +97,8 @@ public class matrix {
 		// I need to go through each diagonal of the matrix, finding the sum
 		// and then performing maths on it basically THIS IS GOING TO BE A BITCH TO IMPLEMENT
 		
-		
 		// wait no that's shit. 
 		// I need to implement the Leibniz formula (shouldn't be too bad)
-		
-		// This requires calculations of permutations of a set - I'm guessing this'll be a large order of complexity - dangit!
-		// However, there may be a way to simplify - only the signature of the permutation is required - it might be possible to 
-		// calculate this without calculating the permutation itself.
-		
-		// This is necessary as to calculate permutations of 100, there are over 10^150 operations
-		// (that's about 10^70 times the number of atoms in the universe)
-		
 		
 		return 0;
 	}

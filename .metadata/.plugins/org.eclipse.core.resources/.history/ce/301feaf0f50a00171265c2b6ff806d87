@@ -106,9 +106,6 @@ public class matrix {
 		// However, there may be a way to simplify - only the signature of the permutation is required - it might be possible to 
 		// calculate this without calculating the permutation itself.
 		
-		// This is necessary as to calculate permutations of 100, there are over 10^150 operations
-		// (that's about 10^70 times the number of atoms in the universe)
-		
 		
 		return 0;
 	}
