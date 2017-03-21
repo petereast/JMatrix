@@ -27,11 +27,18 @@ public class matrix {
 	}
 	
 	public boolean equals(matrix comp){
-		for(double[] x : this.data){for(double y: x){
-				System.out.println(y);
-			}}
+		int xIndex = 0;
+		int yIndex = 0;
+		int same = 1;
+		for(double[] x : this.data){for(double y: x){;
+				same *= (y == comp.data[xIndex][yIndex])? 1 : 0;
+				yIndex++;
+			}
+		yIndex = 0;
+		xIndex++;
+		}
 		
-			return true;
+			return (same == 1? true: false);
 		}
 	
 	public int[] getDimensions(){
@@ -51,7 +58,9 @@ public class matrix {
 	
 	public matrix product(matrix B){
 		
-		// TODO: This method is too complex! (0N3) make it simpler!!!!
+		// TODO: This method is too complex! (0N2) make it simpler!!!!
+		//		 it takes roughly 1s for a matrix of 100*100 and 13s for a matrix of 200*200
+		//		 -- not acceptable
 		// TODO: provide method for getting the dimensions of a matrix
 		
 		// Dimensions of resultant matrices l * m and n * j = l * j
@@ -105,6 +114,8 @@ public class matrix {
 		// calculate this without calculating the permutation itself.
 		// This is necessary as to calculate permutations of 100, there are over 10^150 operations
 		// (that's about 10^70 times the number of atoms in the universe)
+		
+		//TODO: Implement Leibniz formula for now, then later think about optimising it
 				
 		return 0;
 	}
@@ -120,6 +131,11 @@ public class matrix {
 		return true;
 	}
 	
+	public matrix getInverse(){
+		// Perform inversion operation on matrix
+		return new matrix();
+	}
+	
 	
 	@Override
 	public String toString(){
@@ -128,23 +144,6 @@ public class matrix {
 		if(this.data != null){
 			output+="[";
 			for(double[]x:this.data){
-				output+="\n";
-				for(double item: x){
-					output+= item+", ";
-				}
-			}
-			output+="]";
-		}	
-		return output;
-	}
-	
-	@Override
-	public static String toString(matrix m){
-		String output = "";
-		
-		if(m.data != null){
-			output+="[";
-			for(double[]x:m.data){
 				output+="\n";
 				for(double item: x){
 					output+= item+", ";
