@@ -1,6 +1,8 @@
-//c++
+//CUDA
 
 #include <stdio.h>
+#include <stdlib.h>
+
 
 int main(int argc, char* argv[]){
 	printf("Hello world\n");
@@ -13,18 +15,23 @@ int main(int argc, char* argv[]){
 
 	// Allocate memory (both on host & device)
 	// 	Allocate host memory
-
-	// TODO: This probably isn't valid cuda code, I need to compile
-	// test it.Or find an alternative
-	double matrix** = new double*[n];
-	for(int i = 0; i <= m; i++){
-		matrix[i] = new double[m];
+	
+	// Array of pointers;
+	double *host_matrix[n];
+	for(int i = 0; i < n; i++){
+		host_matrix[i] = (double *)malloc(m*sizeof(double));
 	}
+	// useful thing: a[i][j] = *(*(a+i)+j)
+	
+	// Populate host memory structure with data - streamed in via stdin
+
 	
 	//	Allocate device memory
-	//	Serialize the data so it can be addressed & accessed by
-	//	the CUDA device, or use a multidimensional cuda array (werk tho)
-
+	
+	double* dev_matrix;
+	// serialise data for easiness
+	cudaMalloc((void **)&dev_matrix, sizeof(double)*m*n);
+		
 	// read the matrix data from stdin
 	// perform accelerated matrix calculation
 	// write output (& metadata) to stdout

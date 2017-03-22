@@ -51,7 +51,7 @@ public class JMatrix {
 	@Test
 	public void largeProductTest(){
 		// Test the CPU processing time
-		int dim = 1000;
+		int dim = 10000;
 		
 		double [][] td = new double[dim][dim];
 		double [][] tdb = new double[dim][dim];

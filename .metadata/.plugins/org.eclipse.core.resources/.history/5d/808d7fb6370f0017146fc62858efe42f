@@ -69,7 +69,7 @@ public class JMatrix {
 		matrix result;
 		assertFalse((result = large1.product(large2)).equals(large1));
 		assertFalse(result.equals(large2));
-		assertTrue((result.getDimensions()[0] == dim && result.getDimensions()[1] == dim));
+		assertTrue((result.getDimensions()[0] == dim && result.getDimensions()[1] == dim))
 		// Now test the GPU Processing time.
 
 	}
