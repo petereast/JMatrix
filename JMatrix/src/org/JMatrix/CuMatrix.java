@@ -23,24 +23,6 @@ public class CuMatrix extends matrix {
 		this.data = data;
 	}
 	
-	public void forktest(){
-		try {
-			ProcessBuilder builder = new ProcessBuilder("./test");
-			builder.redirectErrorStream(true);
-			Process proc = builder.start();
-			
-			InputStream procStdout = proc.getInputStream();
-			
-			BufferedReader outputBuffer = new BufferedReader( new InputStreamReader(procStdout));
-			
-			System.out.println(outputBuffer.readLine());
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
 	public void iTest(){
 		System.out.println("itest");
 	}

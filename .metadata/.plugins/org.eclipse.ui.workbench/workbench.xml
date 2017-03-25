@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="795" maximized="true" width="1018" x="850" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -37,6 +37,7 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -49,9 +50,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMatrix/src/cuda/matrixencode.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JMatrix.java" partName="JMatrix.java" path="/home/peter/git/JMatrix/JMatrix/src/org/JMatrix/JMatrix.java" title="JMatrix.java" tooltip="JMatrix/src/org/JMatrix/JMatrix.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JMatrix.java" partName="JMatrix.java" path="/home/peter/git/JMatrix/JMatrix/src/org/JMatrix/JMatrix.java" title="JMatrix.java" tooltip="JMatrix/src/org/JMatrix/JMatrix.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMatrix/src/org/JMatrix/JMatrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1719" selectionTopPixel="460"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="994" selectionTopPixel="430"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="matrix.java" partName="matrix.java" path="/home/peter/git/JMatrix/JMatrix/src/org/JMatrix/matrix.java" title="matrix.java" tooltip="JMatrix/src/org/JMatrix/matrix.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMatrix/src/org/JMatrix/matrix.java"/>
@@ -59,16 +60,18 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CuMatrix.java" partName="CuMatrix.java" path="/home/peter/git/JMatrix/JMatrix/src/org/JMatrix/CuMatrix.java" title="CuMatrix.java" tooltip="JMatrix/src/org/JMatrix/CuMatrix.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMatrix/src/org/JMatrix/CuMatrix.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="940" selectionTopPixel="40"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CuMatrixTest.java" partName="CuMatrixTest.java" path="/home/peter/git/JMatrix/JMatrix/src/org/JMatrix/CuMatrixTest.java" title="CuMatrixTest.java" tooltip="JMatrix/src/org/JMatrix/CuMatrixTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JMatrix/src/org/JMatrix/CuMatrixTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1684" selectionTopPixel="505"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
@@ -101,7 +104,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<category IMemento.internal.id="Warnings (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="1138" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -113,33 +116,27 @@
 </view>
 <view id="org.eclipse.jdt.ui.ProjectsView" partName="Projects">
 <viewState org.eclipse.jdt.ui.browsing.projectstoeditor="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.ProjectsView.ContainedLibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.ProjectsView.ContainedLibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.ProjectsView.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.ProjectsView.NonSharedProjectsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.BinaryProjectFilter2" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter2" isEnabled="true"/>
 </xmlDefinedFilters>
 </customFilters>
-<selectedElements>
-<selectedElement selectedElementPath="=JMatrix/src"/>
+<selectedElements>&#x0A;<selectedElement selectedElementPath="=JMatrix/src"/>
 </selectedElements>
 </viewState>
 </view>
 <view id="org.eclipse.jdt.ui.TypesView" partName="Types">
 <viewState org.eclipse.jdt.ui.browsing.typestoeditor="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.TypesView.InterfaceFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.TypesView.InterfaceFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.TypesView.EnumFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.TypesView.NonPublicTypeFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.TypesView.AnnotationFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.TypesView.ClassFilter" isEnabled="false"/>
 </xmlDefinedFilters>
 </customFilters>
-<selectedElements>
-<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix{JMatrix.java[JMatrix"/>
+<selectedElements>&#x0A;<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix{JMatrix.java[JMatrix"/>
 </selectedElements>
 </viewState>
 </view>
@@ -148,14 +145,11 @@
 </view>
 <view id="org.eclipse.jdt.ui.MembersView" partName="Members">
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" org.eclipse.jdt.ui.browsing.memberstoeditor="1">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.MembersView.SyntheticMembersFilter" isEnabled="true"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.MembersView.SyntheticMembersFilter" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.MembersView.ImportDeclarationFilter" isEnabled="true"/>
 </xmlDefinedFilters>
 </customFilters>
-<selectedElements>
-<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix{JMatrix.java[JMatrix~largeProductTest"/>
+<selectedElements>&#x0A;<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix{JMatrix.java[JMatrix~largeProductTest"/>
 </selectedElements>
 </viewState>
 </view>
@@ -165,15 +159,12 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackagesView" partName="Packages">
 <viewState org.eclipse.jdt.ui.PackagesView.viewState="0" org.eclipse.jdt.ui.browsing.packagestoeditor="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.internal.ui.PackagesView.NoPackageContainingFolders" isEnabled="true"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.internal.ui.PackagesView.NoPackageContainingFolders" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackagesView.EmptyPackageFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.internal.ui.PackagesView.EmptyInnerPackageFilter" isEnabled="true"/>
 </xmlDefinedFilters>
 </customFilters>
-<selectedElements>
-<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix"/>
+<selectedElements>&#x0A;<selectedElement selectedElementPath="=JMatrix/src&lt;org.JMatrix"/>
 </selectedElements>
 </viewState>
 </view>
@@ -191,9 +182,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
@@ -230,51 +218,35 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<fastViewBars>
-<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="16384" id="bottomLeft" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
-<layout>
-<mainWindow maximized="bottomRight">
-<info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow maximized="bottomRight">&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6596386" ratioLeft="438" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="1">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.6596386" ratioLeft="438" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="1">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="332" ratioRight="332" relationship="4" relative="topLeft">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="332" ratioRight="332" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -330,9 +302,9 @@
 <new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.jdt.junit.ResultView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
@@ -456,26 +428,17 @@
 <view id="org.eclipse.jdt.ui.TypesView"/>
 <view id="org.eclipse.jdt.ui.MembersView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@16db70a0">
-<folder activePageID="org.eclipse.jdt.ui.ProjectsView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.ProjectsView" label="Projects"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@16db70a0">&#x0A;<folder activePageID="org.eclipse.jdt.ui.ProjectsView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.ProjectsView" label="Projects"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1383" ratioRight="461" relationship="2" relative="org.eclipse.ui.internal.ViewStack@16db70a0">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1383" ratioRight="461" relationship="2" relative="org.eclipse.ui.internal.ViewStack@16db70a0">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="left" ratio="0.24974412" ratioLeft="244" ratioRight="733" relationship="4" relative="org.eclipse.ui.internal.ViewStack@16db70a0">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<info folder="true" part="left" ratio="0.24974412" ratioLeft="244" ratioRight="733" relationship="4" relative="org.eclipse.ui.internal.ViewStack@16db70a0">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -484,9 +447,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="461" ratioRight="1383" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7489768" ratioLeft="549" ratioRight="184" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<info folder="true" part="bottom" ratio="0.7489768" ratioLeft="549" ratioRight="184" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
@@ -495,27 +456,18 @@
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@60a0e576" ratio="0.25" ratioLeft="461" ratioRight="1383" relationship="2" relative="org.eclipse.ui.internal.ViewStack@16db70a0">
-<folder activePageID="org.eclipse.jdt.ui.PackagesView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackagesView" label="Packages"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@60a0e576" ratio="0.25" ratioLeft="461" ratioRight="1383" relationship="2" relative="org.eclipse.ui.internal.ViewStack@16db70a0">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackagesView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackagesView" label="Packages"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@67b7b892" ratio="0.329718" ratioLeft="456" ratioRight="927" relationship="2" relative="org.eclipse.ui.internal.ViewStack@60a0e576">
-<folder activePageID="org.eclipse.jdt.ui.TypesView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.TypesView" label="Types"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@67b7b892" ratio="0.329718" ratioLeft="456" ratioRight="927" relationship="2" relative="org.eclipse.ui.internal.ViewStack@60a0e576">&#x0A;<folder activePageID="org.eclipse.jdt.ui.TypesView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.TypesView" label="Types"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@3f7ff364" ratio="0.49946064" ratioLeft="463" ratioRight="464" relationship="2" relative="org.eclipse.ui.internal.ViewStack@67b7b892">
-<folder activePageID="org.eclipse.jdt.ui.MembersView" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.MembersView" label="Members"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3f7ff364" ratio="0.49946064" ratioLeft="463" ratioRight="464" relationship="2" relative="org.eclipse.ui.internal.ViewStack@67b7b892">&#x0A;<folder activePageID="org.eclipse.jdt.ui.MembersView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.MembersView" label="Members"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -526,161 +478,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/JMatrix/src/cuda/matrixencode.cu"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/JMatrix/src/cuda/matrixencode.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMatrix/src/org/JMatrix/JMatrix.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMatrix/src/org/JMatrix/matrix.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMatrix/src/org/JMatrix/CuMatrix.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMatrix/src/org/JMatrix/CuMatrix.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JMatrix/src/org/JMatrix/CuMatrixTest.java"/>
 </editors>
-<item historyLabel="CuMatrix.java" index="4">
+<item historyLabel="JMatrix.java" index="1">
 <position/>
 </item>
-<item historyLabel="CuMatrix.java" index="4">
-<position/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="616" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="567" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="842" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="842" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="995" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="473" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="1764" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="912" y="0"/>
-</item>
-<item historyLabel="matrix.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="matrix.java" index="3">
-<position info="not_deleted" x="550" y="0"/>
-</item>
-<item historyLabel="matrix.java" index="3">
-<position info="not_deleted" x="656" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="1764" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="400" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="469" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="468" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="471" y="0"/>
-</item>
-<item historyLabel="CuMatrix.java" index="4">
-<position info="not_deleted" x="646" y="0"/>
-</item>
-<item historyLabel="matrixencode.cu" index="0">
-<position info="not_deleted" x="742" y="0"/>
-</item>
-<item historyLabel="matrixencode.cpp" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="20" y="0"/>
-</item>
-<item historyLabel="matrix.java" index="3">
-<position info="not_deleted" x="601" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position info="not_deleted" x="20" y="0"/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
-<position/>
-</item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1128" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="838" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1114" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1760" y="0"/>
 </item>
-<item historyLabel="CuMatrix.java" index="4">
+<item historyLabel="CuMatrix.java" index="3">
 <position info="not_deleted" x="940" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1166" y="0"/>
 </item>
-<item historyLabel="matrix.java" index="3">
+<item historyLabel="matrix.java" index="2">
 <position info="not_deleted" x="1114" y="0"/>
 </item>
-<item historyLabel="matrixencode.cpp" index="1">
+<item historyLabel="matrixencode.cpp" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1166" y="0"/>
 </item>
-<item historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1595" y="0"/>
 </item>
-<item active="true" historyLabel="JMatrix.java" index="2">
+<item historyLabel="JMatrix.java" index="1">
 <position info="not_deleted" x="1675" y="0"/>
+</item>
+<item historyLabel="CuMatrix.java" index="4">
+<position/>
+</item>
+<item historyLabel="CuMatrix.java" index="4">
+<position/>
+</item>
+<item historyLabel="CuMatrix.java" index="4">
+<position/>
+</item>
+<item historyLabel="CuMatrix.java" index="4">
+<position info="not_deleted" x="476" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1867" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1852" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1878" y="0"/>
+</item>
+<item historyLabel="JMatrix.java" index="1">
+<position info="not_deleted" x="994" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1878" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1764" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1793" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1077" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1116" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1310" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1311" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1065" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1415" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1038" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="882" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="884" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="366" y="8"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1449" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1490" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1491" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1677" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1648" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1651" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1633" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1534" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position info="not_deleted" x="1533" y="0"/>
+</item>
+<item historyLabel="CuMatrixTest.java" index="5">
+<position/>
+</item>
+<item active="true" historyLabel="CuMatrixTest.java" index="5">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -688,15 +641,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-<trimItem IMemento.internal.id="bottomLeft"/>
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -704,11 +648,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CuMatrixTest.java" tooltip="JMatrix/src/org/JMatrix/CuMatrixTest.java">
+<persistable path="/JMatrix/src/org/JMatrix/CuMatrixTest.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CuMatrix.java" tooltip="JMatrix/src/org/JMatrix/CuMatrix.java">
 <persistable path="/JMatrix/src/org/JMatrix/CuMatrix.java"/>
 </file>

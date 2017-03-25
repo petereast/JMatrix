@@ -1,0 +1,47 @@
+package org.JMatrix;
+
+import static org.junit.Assert.*;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.junit.Test;
+
+public class CuMatrixTest extends CuMatrix{
+	
+	
+	@Test
+	public void forktest(){
+		try {
+			ProcessBuilder builder = new ProcessBuilder("./test/test");
+			builder.redirectErrorStream(true);
+			Process proc = builder.start();
+			
+			InputStream procStdout = proc.getInputStream();
+			
+			BufferedReader outputBuffer = new BufferedReader( new InputStreamReader(procStdout));
+			
+			System.out.println(outputBuffer.readLine());
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void communicationTest(){
+		System.out.println("Communication test");
+		try {
+			ProcessBuilder builder = new ProcessBuilder("test/io");
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		assertTrue(false);
+		
+	}
+}

@@ -41,7 +41,7 @@ public class JMatrix {
 		f.iTest();
 		
 		System.out.println(System.getProperty("user.dir"));
-		f.forktest();
+		//f.forktest();
 		
 		System.out.println(f.product(y));
 		

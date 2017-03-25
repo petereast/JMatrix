@@ -1,0 +1,75 @@
+package org.JMatrix;
+
+import static org.junit.Assert.*;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+import org.junit.Test;
+
+public class CuMatrixTest extends CuMatrix{
+	
+	
+	@Test
+	public void forktest(){
+		System.out.println("hello");
+		try {
+			ProcessBuilder builder = new ProcessBuilder("./test/test");
+			builder.redirectErrorStream(true);
+			Process proc = builder.start();
+			
+			InputStream procStdout = proc.getInputStream();
+			
+			BufferedReader outputBuffer = new BufferedReader( new InputStreamReader(procStdout));
+			
+			System.out.println("output: "+outputBuffer.readLine());
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		assertTrue(true);
+	}
+	
+	@Test
+	public void communicationTest(){
+		System.out.println("Communication test");
+		try {
+			ProcessBuilder builder = new ProcessBuilder("./test/io");
+			builder.redirectErrorStream(true);
+			
+			Process proc = builder.start();
+			
+			InputStream procStdout = proc.getInputStream();
+			OutputStream procStdin = proc.getOutputStream();
+			BufferedReader stdoutBuffer = new BufferedReader(new InputStreamReader(procStdout));
+			BufferedWriter stdinBuffer = new BufferedWriter(new OutputStreamWriter(procStdin));
+			
+			System.out.println("waiting for read...");
+			System.out.println("done!");
+			
+			for(int i = 0; i <= 10; i++){
+				System.out.println(i);
+				stdinBuffer.append((new Integer(i).toString()));
+//				stdinBuffer.write(i);
+				//stdinBuffer.newLine();
+			}
+			
+			System.out.println(stdoutBuffer.readLine());
+
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+			assertTrue(false);
+		}
+		
+		assertTrue(true);
+		
+	}
+}
