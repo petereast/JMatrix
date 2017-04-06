@@ -1,0 +1,120 @@
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 0.000000
+    Value 1: 1.000000
+    Value 2: 2.000000
+    Value 3: 3.000000
+    Value 4: 4.000000
+    Value 5: 5.000000
+    Value 6: 6.000000
+    Value 7: 7.000000
+    Value 8: 8.000000
+    Value 9: 9.000000
+  Average: 4.500000
+started io
+    Value 0: 1.000000
+    Value 1: 2.000000
+    Value 2: 3.000000
+    Value 3: 4.000000
+    Value 4: 5.000000
+    Value 5: 6.000000
+    Value 6: 7.000000
+    Value 7: 8.000000
+    Value 8: 9.000000
+    Value 9: 10.000000
+  Average: 5.500000
+started io
+    Value 0: 1.000000
+    Value 1: 2.000000
+    Value 2: 3.000000
+    Value 3: 4.000000
+    Value 4: 5.000000
+    Value 5: 6.000000
+    Value 6: 7.000000
+    Value 7: 8.000000
+    Value 8: 9.000000
+    Value 9: 10.000000
+  Average: 5.500000
+started io
+    Value 0: 1.000000
+    Value 1: 2.000000
+    Value 2: 3.000000
+    Value 3: 4.000000
+    Value 4: 5.000000
+    Value 5: 6.000000
+    Value 6: 7.000000
+    Value 7: 8.000000
+    Value 8: 9.000000
+    Value 9: 10.000000
+  Average: 5.500000
+started io
+    Value 0: 1.000000
+    Value 1: 2.000000
+    Value 2: 3.000000
+    Value 3: 4.000000
+    Value 4: 5.000000
+    Value 5: 6.000000
+    Value 6: 7.000000
+    Value 7: 8.000000
+    Value 8: 9.000000
+    Value 9: 10.000000
+  Average: 5.500000

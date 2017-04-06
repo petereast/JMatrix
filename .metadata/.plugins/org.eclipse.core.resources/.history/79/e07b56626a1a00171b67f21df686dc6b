@@ -70,7 +70,7 @@ public class CuMatrixTest extends CuMatrix{
 			String tst = stdoutBuffer.readLine();
 			
 			System.out.println("Output: \""+tst+"\"");
-			assertTrue(tst.equals("Average: 5.500000"));
+			assertTrue(tst=="Average: 5.00000");
 
 			
 		} catch (IOException e) {

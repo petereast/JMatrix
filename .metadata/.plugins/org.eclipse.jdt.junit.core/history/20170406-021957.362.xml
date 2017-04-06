@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CuMatrixTest" project="JMatrix" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="org.JMatrix.CuMatrixTest" time="0.04">
+    <testcase name="communicationTest" classname="org.JMatrix.CuMatrixTest" time="0.039"/>
+    <testcase name="forktest" classname="org.JMatrix.CuMatrixTest" time="0.001"/>
+  </testsuite>
+</testrun>
